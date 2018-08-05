@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Atoms } from 'vc-components';
 
-const CardListItem = ({ itemList }) => (
-	<Atoms.Box display="flex" flexWrap="wrap" m={-3} mb={0}>
+const CardListItem = ({ itemList, ...props }) => (
+	<Atoms.Box display="flex" flexWrap="wrap" m={-3} mb={0} {...props}>
 		{itemList.map(({ title, subtitle }) => (
 			<Atoms.Box m={3}>
 				<Atoms.Subtitle is="h3">{title}</Atoms.Subtitle>

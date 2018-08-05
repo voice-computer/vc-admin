@@ -5,7 +5,9 @@ import { Atoms } from 'vc-components';
 import { IconLink, Sidebar } from '../widgets';
 
 const contentAttributes = {
-	p: 3,
+	px: 3,
+	pt: 3,
+	pb: '120px',
 	mt: 5,
 	is: 'article',
 	alignItems: 'flex-start',

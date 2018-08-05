@@ -7374,9 +7374,9 @@ vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.npmjs.org/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
 
-vc-components@^1.0.61:
-  version "1.0.61"
-  resolved "https://registry.npmjs.org/vc-components/-/vc-components-1.0.61.tgz#ed8047e3f445316b68e6b09611653cadf7606469"
+vc-components@^1.0.63:
+  version "1.0.63"
+  resolved "https://registry.npmjs.org/vc-components/-/vc-components-1.0.63.tgz#ba6db45f87c67862cdaaf1df9e1931845dbbea7c"
   dependencies:
     clean-tag "^1.0.4"
     gatsby-link "^1.6.44"

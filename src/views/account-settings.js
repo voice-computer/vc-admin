@@ -27,6 +27,14 @@ const AccountSettings = () => (
 				Save Changes
 			</Atoms.ArrowButton>
 		</CardBox>
+		<CardBox title="Delete Account">
+			<Atoms.Box m={0} mb={4}>
+				Deleting your account is a permanent action. This will cancel your subscription
+				and your active computers will be able to use Voice Computer for the rest of your
+				billing cycle. However, you will not be able to manage your computers.
+			</Atoms.Box>
+			<Atoms.Button outline>Delete Account</Atoms.Button>
+		</CardBox>
 	</Layout>
 );
 
